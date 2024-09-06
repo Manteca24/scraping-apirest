@@ -1,0 +1,14 @@
+### // GET todas las noticias 
+GET http://localhost:3000/noticias
+
+### // GET una noticia específica (por índice) 
+GET http://localhost:3000/noticias/2
+
+###//POST para crear una noticia: Enviar una solicitud POST a http://localhost:3000/noticias con un cuerpo JSON de la noticia.
+POST http://localhost:3000/noticias
+
+###// PUT para actualizar una noticia: Enviar una solicitud PUT a http://localhost:3000/noticias/:index con el cuerpo actualizado de la noticia.
+PUT http://localhost:3000/noticias/:index
+
+###// DELETE para eliminar una noticia: Enviar una solicitud DELETE a http://localhost:3000/noticias/:index.
+DELETE http://localhost:3000/noticias/:index
